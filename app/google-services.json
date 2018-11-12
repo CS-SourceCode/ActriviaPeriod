@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "745833945358",
+    "firebase_url": "https://actriviaperiod.firebaseio.com",
+    "project_id": "actriviaperiod",
+    "storage_bucket": "actriviaperiod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745833945358:android:7ba008e71d09e0c1",
+        "android_client_info": {
+          "package_name": "com.cssourcecode1819.actriviaperiod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745833945358-2rcahfeb76t4vi83sjl011icqbnp1ufq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cssourcecode1819.actriviaperiod",
+            "certificate_hash": "d0f6f308c79f4b7951d81c7b9814b27fa1c1d23d"
+          }
+        },
+        {
+          "client_id": "745833945358-7rqq39d08rd4g6g6d913hn174k2u2q6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA9Z__0nmlJYce8C3WuKe5JKpyMU__Ia4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745833945358-7rqq39d08rd4g6g6d913hn174k2u2q6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
