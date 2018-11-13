@@ -30,11 +30,11 @@
             android:gravity="center">
 
             <ImageView
+                android:id="@+id/activity_welcome_ivLogo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/ic_launcher"/>
             <TextView
-                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
@@ -44,16 +44,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Team"
-                />
+                android:text="Team" />
+
             <EditText
+                android:id="@+id/activity_welcome_etTeamName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lines="1"
                 android:textAlignment="center"
-                android:hint="Enter team name here" />
+                android:hint="Enter team name here :)" />
 
             <Button
+                android:id="@+id/activity_welcome_btnProceed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Proceed"
