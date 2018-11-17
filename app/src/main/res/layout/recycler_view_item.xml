@@ -16,14 +16,16 @@
       android:padding="5dp"
       android:orientation="vertical">
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/recycler_view_item_txtQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit"
         tools:text="@tools:sample/lorem[3]" />
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/recycler_view_item_txtAnswer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit"
         tools:text="@tools:sample/lorem[4]" />
   </LinearLayout>
 </LinearLayout>
