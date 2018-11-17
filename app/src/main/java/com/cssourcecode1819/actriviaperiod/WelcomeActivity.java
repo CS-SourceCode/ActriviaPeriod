@@ -38,6 +38,12 @@ public class WelcomeActivity extends AppCompatActivity {
         return true;
     }
 
+    private boolean hasTeamName(){
+        // Todo: Check if account has team name
+
+        return true;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,7 +75,6 @@ public class WelcomeActivity extends AppCompatActivity {
                 // If we got here, the user's action was not recognized.
                 // Invoke the superclass to handle it.
                 return super.onOptionsItemSelected(item);
-
         }
     }
 }
